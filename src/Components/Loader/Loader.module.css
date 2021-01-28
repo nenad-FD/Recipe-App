@@ -1,0 +1,16 @@
+.loader {
+  border: 14px solid #f3f3f3;
+  border-top: 14px solid #ffad72;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  animation: load 2s linear infinite;
+}
+@keyframes load {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
